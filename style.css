@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.display-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    border: 1px solid #ccc;
+    height: 60px;
+    width: 270px;
+}
+
+.display-container .display {
+    margin: 0;
+}
+
+.btnGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.clear-btn, .backspace-btn {
+    height: 60px;
+    width: 130px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+}
