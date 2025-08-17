@@ -33,6 +33,7 @@ body {
     height: 60px;
     width: 270px;
     background-color:  rgb(204, 200, 200);
+    overflow: hidden;
 }
 
 .display-container .display {
